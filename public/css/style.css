@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 80vw;
+   height: 100vh;
+    margin: 0 auto;
+    
+   
+   
+ 
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    min-height: 90vh;
+    flex-direction: column;
+    background-color: rgb(127, 154, 179);
+}
+.header{
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.header #top-header{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header #top-header #nav{
+    list-style: none;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
+.header #top-header .myname h1{
+    font-size: 30px;
+    color:white;
+}
+.header #top-header #nav li{
+    margin-left: 20px;
+}
+.header #top-header #nav li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+.header #top-header #title h1{
+     font-size: 50px;
+     color: white;
+}
+.content
+{
+    flex-grow: 5;
+    background-image: url('../img/beach-bench-boardwalk-clouds-462024.jpg');
+    
+    background-attachment: fixed;
+    background-repeat: none;
+    background-size: cover;
+    opacity: 0.9;
+}
+.footer{
+    flex-grow: 1;
+}
+.footer
+{
+position: relative;
+
+}
+.footer h1{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    transform: translate(80%,10%);
+}
+
+
+/* .header #title 
+{
+   
+} */
